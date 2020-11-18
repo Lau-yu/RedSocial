@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34720249589",
+    "firebase_url": "https://socialmediagamer-c262a.firebaseio.com",
+    "project_id": "socialmediagamer-c262a",
+    "storage_bucket": "socialmediagamer-c262a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34720249589:android:24c0398b7d32ec21f737bc",
+        "android_client_info": {
+          "package_name": "com.optic.socialmediagamer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34720249589-4cno0b9m4up59vaq5467sqkerinpls6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optic.socialmediagamer",
+            "certificate_hash": "caa3e9c34082b3f6aecfb82bdcd6951c177aab08"
+          }
+        },
+        {
+          "client_id": "34720249589-m4itvvpcek687s28t6uk8vudu44tb8vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe6kI-qCYcWROFVGTvXCOL6-KvawKsntg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34720249589-m4itvvpcek687s28t6uk8vudu44tb8vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
