@@ -31,7 +31,7 @@
                     android:id="@+id/imageViewCover"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/symbol_with_shopping"
+                    android:src="@drawable/carrito2"
                     android:scaleType="centerCrop"
                     android:alpha="0.8"
                     app:layout_collapseMode="parallax"
@@ -128,7 +128,6 @@
                         android:layout_height="wrap_content"
                         android:text="correo@algo.com"
                         android:textColor="@color/colorDarkBlue"
-                        android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -170,16 +169,32 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_marginTop="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No hay publicaciones"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textSize="18dp"
-            android:textStyle="italic" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewPostExist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No hay publicaciones"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="18dp"
+                android:textStyle="italic" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMyPost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+        </LinearLayout>
+
+
 
     </androidx.core.widget.NestedScrollView>
 

@@ -8,4 +8,6 @@
     <color name="colorDarkBlue">#090B17</color>
     <color name="colorGray">#D5D2D2</color>
     <color name="colorGrayLight">#F1EFEF</color>
+    <color name="colorBlue">#AF517C</color>
+    <color name="colorGreen">#7C195B</color>
 </resources>

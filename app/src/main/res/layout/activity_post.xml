@@ -99,7 +99,7 @@
                     android:id="@+id/textInputVideoGame"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Nombre del producto"
+                    android:hint="Nombre del articulo"
                     android:inputType="text"
                      />
 
@@ -190,14 +190,14 @@
                         android:id="@+id/imageViewPc"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/tecnologia" />
+                        android:src="@drawable/joyas" />
 
                 </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Celulares"
+                    android:text="JOYAS"
                     android:textAlignment="center"
                     android:textColor="@color/colorBlack"
                     android:textStyle="bold"
@@ -231,7 +231,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ropa"
+                    android:text="ROPA"
                     android:textAlignment="center"
                     android:textColor="@color/colorBlack"
                     android:textStyle="bold"
@@ -258,7 +258,7 @@
                         android:id="@+id/imageViewXbox"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/joyas"
+                        android:src="@drawable/tecnologia"
                         android:padding="5dp"/>
 
                 </androidx.cardview.widget.CardView>
@@ -266,7 +266,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Joyas"
+                    android:text="TECNOLOGIA"
                     android:textAlignment="center"
                     android:textColor="@color/colorBlack"
                     android:textStyle="bold"
@@ -293,14 +293,14 @@
                         android:id="@+id/imageViewNintendo"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/maqui" />
+                        android:src="@drawable/icon_ps4" />
 
                 </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Accesorios"
+                    android:text="JUEGOS"
                     android:textAlignment="center"
                     android:textColor="@color/colorBlack"
                     android:textStyle="bold"

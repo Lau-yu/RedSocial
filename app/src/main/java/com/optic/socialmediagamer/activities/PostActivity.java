@@ -141,7 +141,7 @@ public class PostActivity extends AppCompatActivity {
         mImageViewPC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "Tecnologia";
+                mCategory = "JOYAS";
                 mTextViewCategory.setText(mCategory);
             }
         });
@@ -149,7 +149,7 @@ public class PostActivity extends AppCompatActivity {
         mImageViewPS4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "Ropa";
+                mCategory = "ROPA";
                 mTextViewCategory.setText(mCategory);
             }
         });
@@ -157,7 +157,7 @@ public class PostActivity extends AppCompatActivity {
         mImageViewXBOX.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "Joyas";
+                mCategory = "TECNOLOGIA";
                 mTextViewCategory.setText(mCategory);
             }
         });
@@ -165,7 +165,7 @@ public class PostActivity extends AppCompatActivity {
         mImageViewNitendo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "Accesorios";
+                mCategory = "JUEGOS";
                 mTextViewCategory.setText(mCategory);
             }
         });
@@ -287,7 +287,7 @@ public class PostActivity extends AppCompatActivity {
                                                 Post post = new Post();
                                                 post.setImage1(url);
                                                 post.setImage2(url2);
-                                                post.setTitle(mTitle);
+                                                post.setTitle(mTitle.toLowerCase());
                                                 post.setDescription(mDescription);
                                                 post.setCategory(mCategory);
                                                 post.setIdUser(mAuthProvider.getUid());
